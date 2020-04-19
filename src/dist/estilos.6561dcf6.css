@@ -1,0 +1,253 @@
+
+
+ /**************************************************************************************/
+  /*   Declaración de propiedades de estilo generales del enlace de la web */
+/**************************************************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+
+  h1{
+    color: #363636
+  }
+
+  .textoCentrado{
+    text-align: center;
+  }
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .parrafo {
+    background-color: #363636; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+  }
+
+/**************************************************************************************/
+  /*   Declaración de propiedades de estilo del enlace del header */
+/**************************************************************************************/
+  
+  .header {
+    color: #ffffff;
+  }
+ /**************************************************************************************/
+  /*   Declaración de propiedades de estilo del enlace del menú de navegación */
+/**************************************************************************************/
+
+  /*   Declaración de propiedades de estilo del enlace del menú de navegación */
+ #nav{
+   height: 62px;
+   background-color:rgb(0, 168, 247);
+   text-align: center;
+ }
+  /*   Declaración de propiedades de estilo del enlace del menú de navegación */
+ #nav ul{
+    list-style: none;
+    display: inline-block;
+ }
+
+  /*   Declaración de propiedades de estilo del enlace del menú de navegación */
+ #nav ul li{
+     float: left;
+     margin-top: 4px;
+ }
+
+ /*   Declaración de propiedades de estilo del menú de navegación */
+ #nav ul li a {
+     color: #ffffff;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 25px;
+     padding: 22px;
+
+ }
+
+/*   Declaración de propiedades de estilo del hover del menú de navegación */
+ #nav ul li a:hover{
+   background-color: #929fb3;
+ }
+
+/**************************************************************************************/
+  /*   Declaración de propiedades de estilo de la columna izquierda */
+/**************************************************************************************/
+
+  /*   Declaración de propiedades de estilo de la columna izquierda  en la lista no ordenada*/
+  .categorias ul {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+  
+    /*   Declaración de propiedades de estilo de la columna izquierda  de los elementos en la lista */
+  .categorias li {
+    font-size: 25px;    
+    padding: 18px;
+    margin-bottom: 7px;
+    background-color: rgb(0, 168, 247);
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /*   Declaración del estilo de la columna izquierda  al hacer hover en los elementos de la lista */
+  .categorias li:hover {
+    background-color: #929fb3;
+  }
+
+  
+
+
+  /**************************************************************************************/
+  /*   Declaración de propiedades de estilo de la columna derecha */
+/**************************************************************************************/
+
+  /*   Declaración de estilo de la columna derecha de la web */
+  .aside {
+    background-color: rgb(0, 168, 247);
+    color: #ffffff;
+    padding: 22px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+
+  
+ /* Declaración de la clase que englobaa todas las columas  de la web */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+/**************************************************************************************/
+  /*   Declaración de propiedades de estilo de patalla entre 600 y 768 px */
+/**************************************************************************************/
+   
+  
+  /* Declaración de estilo de las columas para dispositivos tablets de la web */
+  @media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%; }
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+
+/**************************************************************************************/
+  /*   Declaración de propiedades de estilo de patalla a partir de 768 px */
+/**************************************************************************************/
+
+  /* Declaración de estilo de las columas para dispositivos  pcs de la web */
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+/**************************************************************************************/
+  /*   Declaración de propiedades de estilo de elementos multimedia */
+/**************************************************************************************/
+
+/* Declaración de estilo de las imágenes de la web */
+  .responsiveImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .responsiveImage2 {
+    width: 200px;
+    height: 150px;
+  }
+
+/* Declaración de estilo de los videos de la web */
+  .responsiveVideo {
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+/* Reglas de estilo del formulario de contacto */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	
+  }
+
+  .margenContacto {
+	margin-top:50px;
+	margin-bottom:50px;
+  }
+
+
+
+/**************************************************************************************/
+  /*   Declaración de propiedades de estilo del pie de página de web */
+/**************************************************************************************/
+
+/* Declaración de estilo del pie de página de la web */
+  .footer {
+    background-color: rgb(0, 168, 247);
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+  }
+
+/*# sourceMappingURL=/estilos.6561dcf6.css.map */
