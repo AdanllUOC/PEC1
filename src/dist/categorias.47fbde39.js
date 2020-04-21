@@ -202,14 +202,14 @@ var ejemplo = function ejemplo() {
 };
 
 exports.ejemplo = ejemplo;
-},{}],"index.js":[function(require,module,exports) {
+},{}],"categorias.js":[function(require,module,exports) {
 "use strict";
 
 require("./css/estilos.css");
 
 var _moduloCategoria = require("./moduloCategoria1.js");
 
-console.log('hola mundo');
+console.log('Javascript de categiría 2');
 },{"./css/estilos.css":"css/estilos.css","./moduloCategoria1.js":"moduloCategoria1.js"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -414,5 +414,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/src.e31bb0bc.js.map
+},{}]},{},["../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","categorias.js"], null)
+//# sourceMappingURL=/categorias.47fbde39.js.map

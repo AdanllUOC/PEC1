@@ -189,6 +189,11 @@
     height: 150px;
   }
 
+  .responsiveImage3 {
+    width: 100%;
+    height: 350px;
+  }
+
 /* Declaración de estilo de los videos de la web */
   .responsiveVideo {
     width: 100%;
