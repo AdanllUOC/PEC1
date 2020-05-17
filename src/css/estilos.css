@@ -189,6 +189,51 @@
     height: 150px;
   }
 
+  .responsiveImage3 {
+    width: 100%;
+    height: 350px;
+  }
+
+  .LogoImage {
+    width: 30px;
+    height: 30px;
+  }
+
+  .responsiveImageDetalle{
+    width: 100%;
+    height: auto;
+
+  }
+
+
+  /* Declaración de estilo de la propiedad  clips-path de la web */
+
+  .ImageCircle {
+    clip-path: circle(50%);    
+  }
+
+  .ImagePolygon {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);;    
+  }
+
+  .AnimacionImage {
+    transition: all 1s;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    background-color: #ffffff;  
+}
+
+.RomboImage {
+ 
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.RomboImage:hover {
+ 
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 /* Declaración de estilo de los videos de la web */
   .responsiveVideo {
     width: 100%;
